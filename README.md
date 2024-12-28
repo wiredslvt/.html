@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cartão Digital</title>
   <style>
+    /* Configurações gerais da página */
     body {
       font-family: 'Times New Roman', Georgia, serif;
       margin: 0;
@@ -12,28 +13,31 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      background-color: #e7d3c6; /* Tom pastel terroso */
-      background-image: url('https://i.imgur.com/Bp4Prdb.png'); /* Fundo com estrelinhas */
-      background-repeat: repeat;
-      background-size: 50px;
+      min-height: 100vh;
+      background-color: #d7c4b7; /* Marrom claro terroso */
       color: #4a3f35; /* Cor terrosa para o texto */
     }
+
+    /* Estilo do cartão */
     .card {
-      background-color: #fdf8f4; /* Fundo do cartão em tom pastel claro */
-      border: 2px solid #c8b6a6;
+      background-color: #f6ede7; /* Fundo do cartão em tom pastel claro */
+      border: 2px solid #c8b6a6; /* Borda em tom pastel terroso */
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       padding: 20px;
       max-width: 400px;
       text-align: center;
     }
+
+    /* Título do cartão */
     .card h1 {
       font-size: 26px;
       margin-bottom: 20px;
       font-family: 'Georgia', serif;
       color: #6a503d; /* Tom mais escuro para contraste */
     }
+
+    /* Links */
     .card a {
       display: block;
       margin: 10px 0;
@@ -45,6 +49,7 @@
       border-radius: 5px;
       transition: background-color 0.3s ease;
     }
+
     .card a:hover {
       background-color: #a9907e; /* Escurecendo ao passar o mouse */
     }
